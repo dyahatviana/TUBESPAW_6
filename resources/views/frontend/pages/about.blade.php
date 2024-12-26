@@ -48,7 +48,7 @@
                                 <p class="block-38-subheading">CEO/Co-Founder</p>
                             </div>
                             <div class="block-38-body">
-                                <p>chase the vision, not the money </p>
+                                <p>chase the vision, not the money</p>
                             </div>
                         </div>
                     </div>
@@ -62,7 +62,7 @@
                                 <p class="block-38-subheading">Co-Founder</p>
                             </div>
                             <div class="block-38-body">
-                                <p>chase your dreams, not the crowd. </p>
+                                <p>chase your dreams, not the crowd</p>
                             </div>
                         </div>
                     </div>
@@ -76,7 +76,7 @@
                                 <p class="block-38-subheading">Marketing</p>
                             </div>
                             <div class="block-38-body">
-                                <p>dream big, work hard, stay humble. </p>
+                                <p>dream big, work hard, stay humble</p>
                             </div>
                         </div>
                     </div>
