@@ -1,49 +1,69 @@
-## SHOPPER ECOMMERCE
+# E-commerce Butik
 
-Developed using Laravel, my e-commerce project offers a clean and minimalist interface with powerful multi-filtering features. Users can filter by categories, color and price of products, and can also perform brand-specific searches using the search bar. With the ability to combine multiple filters and search by specific categories, shoppers can easily find the products they want and enjoy a seamless and personalized shopping experience. Explore my user-friendly and visually appealing e-commerce project for a hassle-free shopping journey.
+Selamat datang di repositori E-commerce Butik, platform daring yang dirancang untuk memenuhi kebutuhan fashion Anda dengan koleksi butik terkini.
 
-### Technologies
-* Laravel
-* cviebrock/eloquent-sluggable
-* laravel/ui
-* intervention/image
+## Fitur Utama
 
-### General functionality:
+- **Katalog Produk Lengkap**: Jelajahi berbagai kategori fashion, mulai dari pakaian, aksesori, hingga sepatu.
+- **Sistem Pembayaran Aman**: Transaksi online yang terjamin keamanannya.
+- **Antarmuka Pengguna Ramah**: Desain responsif yang memudahkan navigasi di berbagai perangkat.
+- **Layanan Pelanggan 24/7**: Siap membantu Anda kapan saja.
 
-+ Home page (URL: /#/ )
-    + Get and view product lists by category and subcategory
-+ Sign in/Sign up pages (URL: /#/login, /#/register)
-    + Authenticating users via laravel ui (login/registration pages)
-+ Product page (URL: /#/product)
-    + List of products
-    + List of products pulled from specific category
-    + Product filtering by category, price range, color and size
-    + Add products to cart
-    + Pagination feature
-    + Sort by product name and price
-+ Product detail page (URL: /#/product/{slug})
-    + List product information
-    + Add the product to the cart with its quantity
-    + List products in a similar category to the product
-+ Product detail page (URL: /#/cart)
-    + List products added to cart
-    + Edit, delete items in the cart
-    + Adding coupons in cart
-    + Buying the product
- 
-##### Admin Dashboard (URL: /#/panel )
-- Slider page (URL: /#/panel/slider)
-    - Add, delete, edit and list sliders
-    - Add switch status button for slider with ajax
-- Category page (URL: /#/panel/category)
-    - Add, delete, edit and list category
-    - Add switch status button for category with ajax
-- About page (URL: /#/panel/about)
-    - Show and update about
-- Contact page (URL: /#/panel/contact)
-    - Add, delete, edit and list contact
-    - Add switch status button for contact with ajax
-- Site Setting page (URL: /#/panel/setting)
-    - Add, delete, edit and list site setting
-    - Creating a field with ajax according to the selected input (ckeditor, textarea, text, file, image, email)
+## Tim Pengembang
 
+Proyek ini dikembangkan oleh tim yang berdedikasi:
+
+- **Dyah Lutfi Atvian D**
+- **Elvina Angelina Kurniawan**
+- **Jihan Natsya Najwa Wijaya**
+
+## Teknologi yang Digunakan
+
+- **Frontend**: HTML, CSS, JavaScript, React.js
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+
+## Cara Menjalankan Proyek
+
+1. Clone repositori ini:
+
+   ```bash
+   git clone https://github.com/username/ecommerce-butik.git
+   ```
+
+2. Masuk ke direktori proyek:
+
+   ```bash
+   cd ecommerce-butik
+   ```
+
+3. Instal composer:
+
+   ```bash
+   npm install
+   ```
+
+4. Input Migration:
+
+   ```bash
+   php artisan migrate
+   ```
+5 Input Seeder:
+
+   ```bash
+   php artisan db:seed
+   ```
+
+5. Akses aplikasi di browser melalui `http://localhost:3000`.
+
+## Kontribusi
+
+Kami menyambut kontribusi dari siapa pun. Silakan buat *issue* atau *pull request* untuk perbaikan dan penambahan fitur.
+
+## Lisensi
+
+Proyek ini dilisensikan di bawah [MIT License](LICENSE).
+
+---
+
+Terima kasih telah mengunjungi repositori kami. Kami berharap platform ini dapat memberikan pengalaman belanja yang menyenangkan.
