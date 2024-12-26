@@ -15,17 +15,17 @@ class SiteSettingSeeder extends Seeder
     {
         SiteSetting::create([
             'name' => 'address',
-            'data' => "The address of the site is here"
+            'data' => "Jl. Ketintang Timur PTT 1 No. 33 , Ketintang, Gayungan, Surabaya"
         ]);
 
         SiteSetting::create([
             'name' => 'phone',
-            'data' => "0 123 456"
+            'data' => "082457892081"
         ]);
 
         SiteSetting::create([
             'name' => 'email',
-            'data' => "shoppers@domain.com"
+            'data' => "jeaboutique@gmail.com"
         ]);
 
         SiteSetting::create([

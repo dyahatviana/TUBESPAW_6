@@ -14,7 +14,7 @@ class SliderSeeder extends Seeder
     public function run(): void
     {
         Slider::create([
-            'image' => 'https://pin.it/2brKnlTs8',
+            'image' => asset('images/slider1.jpeg'),
             'name' => 'Slider1',
             'content' => 'Welcome to our e-commerce site',
             'link' => 'product',

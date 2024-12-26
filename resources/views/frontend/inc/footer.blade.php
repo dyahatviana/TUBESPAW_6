@@ -33,12 +33,11 @@
         <div class="row pt-5 mt-5 text-center">
             <div class="col-md-12">
                 <p>
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     Copyright &copy; {{ date('Y') }} All rights reserved | This template is made with <i
-                        class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank"
-                        class="text-primary">Colorlib</a>
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        class="icon-heart" aria-hidden="true"></i> by <a href="https://github.com/dyahatviana/TUBESPAW_6" target="_blank"
+                        class="text-primary">JEA Boutique</a>
                 </p>
+
             </div>
 
         </div>
