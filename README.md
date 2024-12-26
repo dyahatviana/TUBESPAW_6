@@ -14,7 +14,7 @@ Selamat datang di repositori E-commerce Butik, platform daring yang dirancang un
 Proyek ini dikembangkan oleh tim yang berdedikasi:
 
 - **Dyah Lutfi Atvian D**
-- **Elvina Angelina Kurniawan**
+- **Elvina Angelina K**
 - **Jihan Natsya Najwa Wijaya**
 
 ## Teknologi yang Digunakan
