@@ -15,7 +15,7 @@ Proyek ini dikembangkan oleh tim yang berdedikasi:
 
 - **Dyah Lutfi Atvian D**
 - **Elvina Angelina K**
-- **Jihan Natsya Najwa Wijaya**
+- **Jihan Natsya Najwa W**
 
 ## Teknologi yang Digunakan
 
