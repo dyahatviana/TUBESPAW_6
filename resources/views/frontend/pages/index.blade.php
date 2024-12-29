@@ -10,7 +10,7 @@
                         <div class="intro-text text-center text-md-left">
                             <p class="mb-4">{{ $slider->content ?? __('') }}</p>
                             <p>
-                                <a href="{{ $slider->link ?? '' }}" class="btn btn-sm btn-primary">Shop Now</a>
+                                {{-- <a href="{{ $slider->link ?? '' }}" class="btn btn-sm btn-primary">Shop Now</a> --}}
                             </p>
                         </div>
                     </div>
@@ -53,7 +53,7 @@
         </div>
     </div>
 
-    <div class="site-section site-blocks-2">
+    {{-- <div class="site-section site-blocks-2">
         <div class="container">
             <div class="row">
                 @if (!empty($categories) && $categories->count() > 0)
@@ -72,7 +72,7 @@
                 @endif
             </div>
         </div>
-    </div>
+    </div> --}}
 
     <div class="site-section block-3 site-blocks-2 bg-light">
         <div class="container">
@@ -107,7 +107,7 @@
     </div>
 
     <div class="site-section block-8">
-        <div class="container">
+        {{-- <div class="container">
             <div class="row justify-content-center  mb-5">
                 <div class="col-md-7 site-section-heading text-center pt-4">
                     <h2>Big Sale!</h2>
@@ -126,6 +126,6 @@
                     <p><a href="{{ route('sale-product') }}" class="btn btn-primary btn-sm">Shop Now</a></p>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </div>
 @endsection

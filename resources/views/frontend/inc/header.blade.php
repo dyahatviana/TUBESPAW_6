@@ -19,8 +19,16 @@
                 <div class="col-6 col-md-4 order-3 order-md-3 text-right">
                     <div class="site-top-icons">
                         <ul>
-                            <li><a href="#"><span class="icon icon-person"></span></a></li>
-                            <li><a href="#"><span class="icon icon-heart-o"></span></a></li>
+                            @guest
+                            <li><a href="{{ route('login') }}"><span class="icon icon-person"></span></a></li>
+                            <li><a href="{{ route('register') }}"><span class="icon icon-account_circle"></span></a></li>
+                            @else
+                            <li>{{ Auth::user()->name }}</li>
+                                <li><a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"><span class="icon icon-power_off"></span> Logout</a></li>
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                    @csrf
+                                </form>
+                            @endguest
                             <li>
                                 <a href="{{ route('cart') }}" class="site-cart">
                                     <span class="icon icon-shopping_cart"></span>
@@ -32,6 +40,7 @@
                                     class="site-menu-toggle js-menu-toggle"><span class="icon-menu"></span></a></li>
                         </ul>
                     </div>
+                    {{-- {{ Auth::user()->name }} --}}
                 </div>
 
             </div>

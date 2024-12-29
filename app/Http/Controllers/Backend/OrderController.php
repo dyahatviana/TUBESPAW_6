@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Invoice;
 use App\Models\Order;
 use Illuminate\Http\Request;
+use Barryvdh\DomPDF\Facade\Pdf;
 
 class OrderController extends Controller
 {
@@ -76,4 +77,13 @@ class OrderController extends Controller
         Invoice::where('id', $request->id)->update(['status' => $updateCheck]);
         return response(['error'=>false, 'status'=>$update]);
     }
+
+    public function downloadPdf()
+{
+    $orderDetails = session()->get('cart'); // Ambil data order dari session
+    $totalPrice = session()->get('totalPrice') ?? 0;
+
+    $pdf = PDF::loadView('frontend.pages.order', compact('orderDetails', 'totalPrice'));
+    return $pdf->download('order_details.pdf');
+}
 }

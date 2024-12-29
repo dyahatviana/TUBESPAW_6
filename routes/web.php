@@ -6,6 +6,7 @@ use App\Http\Controllers\AjaxController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\Frontend\PageController;
 use App\Http\Controllers\Frontend\PageHomeController;
+use App\Http\Controllers\Backend\OrderController;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,6 +37,7 @@ Route::group(['middleware' => 'sitesetting'], function(){
     Route::post('/cart/newQty', [CartController::class, 'newQty'])->name('cartnewQty');
     Route::get('/cart/form', [CartController::class, 'cartform'])->name('cart.form');
     Route::post('/cart/save', [CartController::class, 'cartSave'])->name('cart.save');
+    Route::get('/order/download-pdf', [OrderController::class, 'downloadPdf'])->name('order.downloadPdf');
 
     Auth::routes();
     Route::get('logout', [AjaxController::class, 'logout'])->name('logout');

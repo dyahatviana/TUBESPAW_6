@@ -7,9 +7,9 @@
         <div class="container">
             <div class="row mb-5">
                 <div class="col-md-12">
-                    <div class="border p-4 rounded" role="alert">
+                    {{-- <div class="border p-4 rounded" role="alert">
                         Returning customer? <a href="#">Click here</a> to login
-                    </div>
+                    </div> --}}
                 </div>
             </div>
             <form method="POST" action="{{ route('cart.save') }}">
@@ -22,7 +22,7 @@
                                 <label for="c_country" class="text-black">Country <span class="text-danger">*</span></label>
                                 <select id="c_country" name="country" class="form-control">
                                     <option value="">Select a country</option>
-                                    <option value="Turkey" selected>Türkiye</option>
+                                    <option value="Turkey" selected>Indonesia</option>
                                 </select>
                             </div>
                             <div class="form-group row">
@@ -226,7 +226,8 @@
 
                                     <div class="form-group">
                                         <button class="btn btn-primary btn-lg py-3 btn-block">Place Order</button>
-                                    </div>
+                                        <a href="{{ route('order.downloadPdf') }}" class="btn btn-secondary btn-lg py-3 btn-block mt-2">Download PDF</a>
+                                    </div>
 
                                 </div>
                             </div>
